@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd Semester - AGMR Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>AGMR Notes</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>3rd Semester - CSE 2022 Scheme</h2>
+                <p><a href="cse-2022.html" class="breadcrumb">← Back to Semesters</a></p>
+            </div>
+        </section>
+
+        <section class="subjects">
+            <div class="container">
+                <div class="subject-list">
+                    <!-- Subject 1 -->
+                    <div class="subject-item">
+                        <h3>Transform Calculus, Fourier Series and Numerical Techniques</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Transform Calculus, Fourier Series and Numerical Techniques')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Transform Calculus, Fourier Series and Numerical Techniques')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Laplace Transform</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Inverse Laplace Transform</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Fourier Series</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Numerical Methods I</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Numerical Methods II</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 2 -->
+                    <div class="subject-item">
+                        <h3>Data Structures and Applications</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Data Structures and Applications')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Data Structures and Applications')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Introduction to Data Structures, Arrays, Strings</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Stacks and Queues</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Linked Lists</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Trees</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Graphs, Hashing, Sorting</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 3 -->
+                    <div class="subject-item">
+                        <h3>Analog and Digital Electronics</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Analog and Digital Electronics')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Analog and Digital Electronics')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Diodes and Applications</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Transistors and Amplifiers</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Number Systems and Boolean Algebra</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Combinational Logic Circuits</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Sequential Logic Circuits</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 4 -->
+                    <div class="subject-item">
+                        <h3>Computer Organization and Architecture</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Computer Organization and Architecture')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Computer Organization and Architecture')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Basic Structure of Computers</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Machine Instructions and Programs</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Input/Output Organization</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Memory System</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Arithmetic and Pipelining</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 5 -->
+                    <div class="subject-item">
+                        <h3>Object Oriented Programming with Java</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Object Oriented Programming with Java')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Object Oriented Programming with Java')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Introduction to Java and OOP Concepts</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Inheritance and Polymorphism</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Packages and Interfaces</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Exception Handling and Multithreading</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Java I/O and Collections</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 6 -->
+                    <div class="subject-item">
+                        <h3>Data Structures Laboratory</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Data Structures Laboratory')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Data Structures Laboratory')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Lab Programs 1-3</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Lab Programs 4-6</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Lab Programs 7-9</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Lab Programs 10-12</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Additional Programs</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 7 -->
+                    <div class="subject-item">
+                        <h3>Analog and Digital Electronics Laboratory</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Analog and Digital Electronics Laboratory')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Analog and Digital Electronics Laboratory')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Analog Experiments 1-3</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Analog Experiments 4-6</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Digital Experiments 1-3</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Digital Experiments 4-6</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Additional Experiments</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 8 -->
+                    <div class="subject-item">
+                        <h3>Object Oriented Programming with Java Laboratory</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Object Oriented Programming with Java Laboratory')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Object Oriented Programming with Java Laboratory')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Java Programs 1-3</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Java Programs 4-6</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Java Programs 7-9</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Java Programs 10-12</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Additional Programs</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AGMR Notes. All rights reserved.</p>
+            <p class="admin-link"><a href="admin-login.html">Admin Login</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

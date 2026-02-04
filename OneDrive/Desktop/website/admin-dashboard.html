@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - AGMR Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>AGMR Notes - Admin</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="admin-dashboard.html">Dashboard</a></li>
+                    <li><a href="#" id="logoutBtn">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="admin-content">
+            <div class="container">
+                <h2>Manage Resources</h2>
+                
+                <div class="admin-controls">
+                    <div class="form-group">
+                        <label for="semesterSelect">Select Semester</label>
+                        <select id="semesterSelect">
+                            <option value="3">3rd Semester</option>
+                            <option value="4">4th Semester</option>
+                            <option value="5">5th Semester</option>
+                            <option value="6">6th Semester</option>
+                            <option value="7">7th Semester</option>
+                            <option value="8">8th Semester</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subjectSelect">Select Subject</label>
+                        <select id="subjectSelect">
+                            <option value="">-- Select Existing Subject --</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subjectInput">Or Add New Subject</label>
+                        <input type="text" id="subjectInput" placeholder="Enter new subject name">
+                        <button class="btn btn-secondary" onclick="addNewSubject()">Add Subject</button>
+                    </div>
+                </div>
+
+                <div class="upload-section">
+                    <h3>Upload Resources</h3>
+                    <div class="upload-grid">
+                        <div class="upload-card">
+                            <h4>📝 Notes</h4>
+                            <div class="form-group">
+                                <label for="moduleSelect">Select Module</label>
+                                <select id="moduleSelect">
+                                    <option value="module1">Module 1</option>
+                                    <option value="module2">Module 2</option>
+                                    <option value="module3">Module 3</option>
+                                    <option value="module4">Module 4</option>
+                                    <option value="module5">Module 5</option>
+                                </select>
+                            </div>
+                            <input type="file" id="notesFile" accept=".pdf,.doc,.docx" multiple>
+                            <button class="btn" onclick="uploadFile('notes')">Upload Notes</button>
+                            <div id="notesStatus" class="upload-status"></div>
+                        </div>
+                        
+                        <div class="upload-card">
+                            <h4>📄 Question Papers</h4>
+                            <div class="form-group">
+                                <label for="yearSelect">Select Year</label>
+                                <select id="yearSelect">
+                                    <option value="year2023">2023</option>
+                                    <option value="year2022">2022</option>
+                                    <option value="year2021">2021</option>
+                                </select>
+                            </div>
+                            <input type="file" id="questionPapersFile" accept=".pdf" multiple>
+                            <button class="btn" onclick="uploadFile('questionPapers')">Upload Question Papers</button>
+                            <div id="questionPapersStatus" class="upload-status"></div>
+                        </div>
+                        
+                        <div class="upload-card">
+                            <h4>📋 Syllabus</h4>
+                            <input type="file" id="syllabusFile" accept=".pdf">
+                            <button class="btn" onclick="uploadFile('syllabus')">Upload Syllabus</button>
+                            <div id="syllabusStatus" class="upload-status"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resources-list">
+                    <h3>Uploaded Resources</h3>
+                    <div id="resourcesList"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AGMR Notes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="admin-dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7th Semester - AGMR Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>AGMR Notes</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>7th Semester - CSE 2022 Scheme</h2>
+                <p><a href="cse-2022.html" class="breadcrumb">← Back to Semesters</a></p>
+            </div>
+        </section>
+
+        <section class="subjects">
+            <div class="container">
+                <div class="subject-list">
+                    <!-- Subject 1 -->
+                    <div class="subject-item">
+                        <h3>Artificial Intelligence and Machine Learning</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Artificial Intelligence and Machine Learning')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Artificial Intelligence and Machine Learning')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Introduction to AI and Intelligent Agents</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Problem Solving and Search Algorithms</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Knowledge Representation and Reasoning</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Machine Learning Fundamentals</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Neural Networks and Deep Learning</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 2 -->
+                    <div class="subject-item">
+                        <h3>Big Data Analytics</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Big Data Analytics')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Big Data Analytics')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Introduction to Big Data</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Hadoop Framework and HDFS</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">MapReduce Programming</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">NoSQL Databases</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Data Analytics and Visualization</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 3 -->
+                    <div class="subject-item">
+                        <h3>.NET Programming</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, '.NET Programming')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, '.NET Programming')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Introduction to .NET Framework</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">C# Programming Fundamentals</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Windows Forms and Controls</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">ASP.NET Web Applications</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">ADO.NET and Database Programming</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 4 -->
+                    <div class="subject-item">
+                        <h3>Professional Elective Course</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Professional Elective Course')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Professional Elective Course')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 1 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 2 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 3 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 4 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 5 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 5 -->
+                    <div class="subject-item">
+                        <h3>Open Elective Course</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Open Elective Course')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Open Elective Course')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 1 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 2 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 3 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 4 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Module 5 Content</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 6 -->
+                    <div class="subject-item">
+                        <h3>Mobile Application Development Laboratory</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Mobile Application Development Laboratory')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Mobile Application Development Laboratory')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Lab Programs 1-3</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Lab Programs 4-6</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Lab Programs 7-9</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Lab Programs 10-12</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Additional Programs</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 7 -->
+                    <div class="subject-item">
+                        <h3>Big Data Analytics Laboratory</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Big Data Analytics Laboratory')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Big Data Analytics Laboratory')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Hadoop Lab Programs 1-3</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">MapReduce Programs 4-6</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">NoSQL Programs 7-9</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Analytics Programs 10-12</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Mini Project</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subject 8 -->
+                    <div class="subject-item">
+                        <h3>Mini Project</h3>
+                        <div class="resource-buttons">
+                            <button class="resource-btn notes" onclick="toggleModules(this, 'Mini Project')">📝 Notes</button>
+                            <button class="resource-btn question-papers" onclick="toggleQuestionPapers(this, 'Mini Project')">📄 Previous Question Papers</button>
+                            <a href="#" class="resource-btn syllabus">📋 Syllabus</a>
+                        </div>
+                        <div class="question-papers-section" style="display: none;">
+                            <div class="year-papers">
+                                <a href="#" class="year-paper-link">📄 2023 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2022 Question Paper</a>
+                                <a href="#" class="year-paper-link">📄 2021 Question Paper</a>
+                            </div>
+                        </div>
+                        <div class="modules-section" style="display: none;">
+                            <div class="module-item">
+                                <div class="module-header">MODULE-1</div>
+                                <div class="module-content">
+                                    <p class="module-description">Project Guidelines and Documentation</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-2</div>
+                                <div class="module-content">
+                                    <p class="module-description">Project Ideas and Topics</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-3</div>
+                                <div class="module-content">
+                                    <p class="module-description">Project Report Format</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-4</div>
+                                <div class="module-content">
+                                    <p class="module-description">Sample Projects</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-header">MODULE-5</div>
+                                <div class="module-content">
+                                    <p class="module-description">Presentation Guidelines</p>
+                                    <div class="module-downloads">
+                                        <a href="#" class="download-btn pdf">📥 DOWNLOAD PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AGMR Notes. All rights reserved.</p>
+            <p class="admin-link"><a href="admin-login.html">Admin Login</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
