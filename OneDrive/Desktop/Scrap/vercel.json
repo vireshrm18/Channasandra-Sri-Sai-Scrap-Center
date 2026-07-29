@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npx vite build",
+  "buildCommand": "echo 'Using pre-built dist'",
   "outputDirectory": "dist",
   "rewrites": [
     {
